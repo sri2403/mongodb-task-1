@@ -1,0 +1,8 @@
+10. Delete the products which product price value are 28
+
+db.products.deleteOne({product_price:28})
+
+output=> {
+  acknowledged: true,
+  deletedCount: 1
+}

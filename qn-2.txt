@@ -1,0 +1,3 @@
+2. Find the product price which are between 400 to 800
+
+db.products.find({product_price:{$gt:400,$lt:800}})

@@ -1,0 +1,5 @@
+9. Find products which contain product color indigo  and product price 492.00
+
+db.products.find({$and:[{product_color:"indigo"},{product_price:492}]})
+
+output=> No documents are there with product_color:”indigo” and product_price:492
